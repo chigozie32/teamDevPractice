@@ -6,7 +6,63 @@ body{
 }
 
 /* Header section. Michelle design here */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: rgb(107, 107, 107);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 540;
+  color: #1a1a1a;
+}
+
+.logo-icon img {
+  width: 19px;
+  height: 21px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 2px; 
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.nav a:hover {
+  color: #0070f3;
+}
+
+.cta-button {
+  padding: 8px 16px;
+  border: 2px solid #0070f3;
+  color: #0070f3;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 540;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0070f3;
+  color: white;
+}
 
 
 /* Hero section. Chigozie design here. */
